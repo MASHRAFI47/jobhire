@@ -1,0 +1,200 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+    .header-section .middle p {
+        font-size: 20px;
+    }
+
+    /* professional cv starts */
+    .professional-cv .text p {
+        font-size: 18px;
+    }
+
+    /* professional cv ends */
+
+    /* register sections starts */
+    .register .back {
+        margin-bottom: 35px;
+    }
+
+    /* register sections ends */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+    /* surface duo */
+    .register .back {
+        margin-bottom: 35px;
+    }
+
+    .popular-categories .bord {
+        height: 85px;
+        width: 95px;
+        margin-bottom: 15px;
+    }
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+    .header-section {
+        padding-bottom: 80px;
+    }
+
+    .header-section .text h1 {
+        font-size: 55px;
+        text-align: center;
+        margin-left: 0px;
+        line-height: 65px;
+    }
+
+    .header-section .middle {
+        padding-bottom: 0px;
+    }
+
+    .header-section .middle p {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .header-section .middle .btn {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .header-section .logo img {
+        width: 70px;
+    }
+
+
+    /* popular section starts */
+    .popular-categories .bord {
+        height: 86px;
+        width: 90px;
+        margin-bottom: 20px;
+    }
+
+    /* popular section ends */
+
+    /* professional cv starts */
+    .professional-cv .text h1 {
+        font-size: 25px;
+    }
+
+    .professional-cv .text p {
+        font-size: 15px;
+    }
+
+    /* professional cv ends */
+
+
+    /* latest job section starts */
+    .latest-job .text p {
+        font-size: 15px;
+    }
+
+    /* latest job section ends */
+
+
+
+
+
+    /* register section starts */
+    .register .back {
+        margin-bottom: 30px;
+    }
+
+    .register .text a {
+        margin-bottom: 10px;
+    }
+
+    .register .text {
+        padding: 0px;
+    }
+
+    .register .text h3 {
+        padding-top: 20px;
+    }
+
+    /* register section ends */
+
+
+    /* download section starts */
+    .download-section {
+        margin: 0px;
+    }
+
+    .download-section .text {
+        text-align: center;
+    }
+
+    .download-section .download {
+        text-align: center;
+    }
+
+    .download-section .device {
+        margin-top: 50px;
+    }
+
+    /* download section ends */
+
+
+    /* slider section starts */
+    .slider-section .owl-theme .item img {
+        width: 75px;
+    }
+
+    /* slider section ends */
+}
